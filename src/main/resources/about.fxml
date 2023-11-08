@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+    fx:controller="gui.components.AboutController">
+   <children>
+      <Button fx:id="okButton" layoutX="230.0" layoutY="95.0" mnemonicParsing="false" onAction="#okButtonClicked" prefHeight="10.0" prefWidth="50.0" text="OK">
+         <font>
+            <Font size="14.0" />
+         </font>
+	  </Button>   
+	   <Text fx:id="aboutText" style="-fx-background-color: #F6F4EB; -fx-font-size: 14px; -fx-font-family: Verdana, Tahoma, sans-serif;" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Simple javafx CDA editor" wrappingWidth="258.986328125">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+	   <Text fx:id="licenceText" style="-fx-background-color: #F6F4EB; -fx-font-size: 12px; -fx-font-family: Verdana, Tahoma, sans-serif;" layoutX="14.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This product is licensed under the terms of the Open Source License Agreement." wrappingWidth="258.986328125">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Hyperlink fx:id="ansLink" style="-fx-background-color: #F6F4EB; -fx-font-size: 14px; -fx-font-family: Verdana, Tahoma, sans-serif;" layoutX="14.0" layoutY="95.0" onAction="#ansLinkOnAction" text="www.esante.gouv.fr">
+	   <font>
+            <Font size="14.0" />
+         </font>
+	  </Hyperlink>
+   </children>
+</AnchorPane>
+
+
+

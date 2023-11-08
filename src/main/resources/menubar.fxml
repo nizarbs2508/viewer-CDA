@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<fx:root prefHeight="30.0" prefWidth="800.0" type="javafx.scene.control.MenuBar" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <menus>
+      <Menu mnemonicParsing="false" text="%button.fichier.text">
+         <items>
+            <MenuItem fx:id="save" mnemonicParsing="false" onAction="#saveMenuItemClick" text="%button.save.text" />
+            <MenuItem fx:id="close" mnemonicParsing="false" onAction="#closeMenuItemClick" text="%button.close.text" />
+         </items>
+      </Menu>
+	   <Menu mnemonicParsing="false" text="%button.edit.text">
+         <items>
+            <MenuItem fx:id="copy" mnemonicParsing="false" onAction="#copyMenuItemClick" text="%button.copy.text" />
+            <MenuItem fx:id="cut" mnemonicParsing="false" onAction="#cutMenuItemClick" text="%button.cut.text" />
+            <MenuItem fx:id="paste" mnemonicParsing="false" onAction="#pasteMenuItemClick" text="%button.paste.text" />
+            <MenuItem fx:id="undo" mnemonicParsing="false" onAction="#undoMenuItemClick" text="%button.undo.text" />
+            <MenuItem fx:id="redo" mnemonicParsing="false" onAction="#redoMenuItemClick" text="%button.redo.text" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="%button.outils.text">
+         <items>
+            <MenuItem fx:id="find" mnemonicParsing="false" onAction="#findMenuItemClick" text="%button.search.text" />
+            <MenuItem fx:id="findAndReplace" mnemonicParsing="false" onAction="#findAndReplaceMenuItemClick" text="%button.searchreplace.text" />
+            <MenuItem fx:id="view" mnemonicParsing="false" onAction="#viewMenuItemClick" text="%button.view" />
+            <MenuItem fx:id="tree" mnemonicParsing="false" onAction="#treeMenuItemClick" text="%button.tree" />
+         </items>
+      </Menu>
+	   <Menu mnemonicParsing="false" text="?">
+         <items>
+            <MenuItem fx:id="about" mnemonicParsing="false" onAction="#aboutMenuItemClick" text="%button.propos.text" />
+         </items>
+      </Menu>
+   </menus>
+</fx:root>
