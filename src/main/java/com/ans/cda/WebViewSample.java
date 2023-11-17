@@ -1728,7 +1728,7 @@ public class WebViewSample extends Application {
 							}
 						});
 					}
-					if (newSceneWidth.doubleValue() >= 1632 && newSceneWidth.doubleValue() >= 1728) { // ecran 17 pouces
+					if (newSceneWidth.doubleValue() >= 1632 && newSceneWidth.doubleValue() <= 1728) { // ecran 17 pouces
 						xmlButton.setStyle(
 								"-fx-background-color: white; -fx-border-color: #98bb68; -fx-border-radius: 5;-fx-font-size: 16; -fx-font-family: Verdana, Tahoma, sans-serif;");
 						xslButton.setStyle(
